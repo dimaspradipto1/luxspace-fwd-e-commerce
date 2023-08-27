@@ -32,11 +32,11 @@
         <div class="w-56 items-center">
           <img src="images/design/logo.svg" alt="Luxspace adalah website yang menjual berbagai macam furnitur">
         </div>
-        <!-- <div class="w-full"></div> -->
+        <div class="w-full"></div>
         <!-- START: navbar -->
         <div class="w-auto">
           <ul
-            class="fixed bg-white inset-0 invisible items-center justify-center opacity-0 md:flex md:visible md:flex-row md:ng-transparent md:relative md:opacity-100">
+            class="fixed  inset-0 flex flex-col invisible items-center justify-center opacity-0 md:flex md:visible md:flex-row md:ng-transparent md:relative md:opacity-100">
             <li class="mx-3 py-6 md:py-0">
               <a href="#" class="text-black hover:text-white hover:underline">
                 Showcase
@@ -96,7 +96,6 @@
                     fill="black" />
                   <circle cx="25" cy="7" r="4" fill="#F9CADA" class="cart-filled" />
                 </svg>
-
               </a>
             </li>
           </ul>
@@ -106,6 +105,42 @@
     </div>
   </header>
   <!-- END: Header -->
+
+  <!-- START: Section Hero -->
+  <section class="flex items-center hero">
+    <div
+      class="w-full absolute z-20 inset-0 md:relative md:w-1/2 text-center flex flex-col justify-center hero-caption">
+      <h1 class="text-3xl md:text-5xl leading-tight font-semibold">
+        The Room <br class="" /> You've Dreaming
+      </h1>
+      <h2 class="px-8 text-base md:px-0 md:text-lg my-6 tracking-wide">
+        Kami menyediakan furniture berkelas yang
+        <br class="hidden lg:block" />
+        membuat ruangan terasa homey
+      </h2>
+      <div>
+        <a href="#browse-to-room"
+          class="bg-pink-400 text-black hover:bg-black hover:text-pink-400 rounded-full px-8 py-3 mt-4 inline-block flex-none transition duration-200">
+          Explore Now
+        </a>
+      </div>
+    </div>
+    <div class="w-full inset-0 md:relative md:w-1/2">
+      <div class="relative hero-image">
+        <div class="overlay inset-0 bg-black opacity-30 z-10"></div>
+        <div class="overlay right-0 bottom-0 md:inset-0">
+          <button class="video hero-cta focus:outline-none z-30 modal-trigger" data-content='<div class="w-screen pb-56 md:w-88 relative z-50">
+            <div class="absolute w-full h-full">
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/qgCSQ0Ej0Bs?si=3xhAki2dqRTnOVYm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+          </div>'>
+          </button>
+        </div>
+        <img class="absolute inset-0 md:relative w-full h-full object-cover object-center" src="images/design/image-hero.jpg" alt="House with sofa and some plants">
+      </div>
+    </div>
+  </section>
+  <!-- END: Section Hero  -->
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
