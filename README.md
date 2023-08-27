@@ -1,4 +1,27 @@
-# The Idea
+### ✨Feature
 
-Basic boilerplate to get started slicing so you don't need to think about configuration.
+- Homepage
+- Detail Product
+- Cart
+- Success
 
+🖇️ How to Use
+
+1. Clone Repository or Download
+    
+    ```html
+    https://github.com/dimaspradipto1/luxspace-fwd-e-commerce.git
+    ```
+    
+2. NPM Install
+    
+    ```html
+    npm i
+    ```
+    
+
+1. Run Server
+    
+    ```html
+    npm start
+    ```
