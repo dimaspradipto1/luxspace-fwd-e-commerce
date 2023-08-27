@@ -1,4 +1,6 @@
-### ✨Feature
+### ✨Features
+
+---
 
 - Homepage
 - Detail Product
@@ -6,6 +8,8 @@
 - Success
 
 🖇️ How to Use
+
+---
 
 1. Clone Repository or Download
     
